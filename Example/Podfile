@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+target 'JDFNotificationView', :exclusive => true do
+  pod "JDFNotificationView", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "JDFNotificationView", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+end
