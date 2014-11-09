@@ -9,20 +9,16 @@
 
 Pod::Spec.new do |s|
   s.name             = "JDFNotificationView"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of JDFNotificationView."
+  s.version          = "1.0"
+  s.summary          = "A UIView subclass for easily showing simple notifications to the user."
   s.description      = <<-DESC
-                       An optional longer description of JDFNotificationView
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                        JDFNotificationView is a simple UIView subclass that makes it easy to show simple notifications to the user without getting in their way.
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/JDFNotificationView"
-  # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
+  s.homepage         = "https://github.com/JoeFryer/JDFNotificationView"
   s.license          = 'MIT'
   s.author           = { "Joe Fryer" => "joe.d.fryer@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/JDFNotificationView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/JoeFryer/JDFNotificationView.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/JoeFryer88'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -32,7 +28,5 @@ Pod::Spec.new do |s|
     'JDFNotificationView' => ['Pod/Assets/*.png']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.frameworks = 'UIKit'
 end
