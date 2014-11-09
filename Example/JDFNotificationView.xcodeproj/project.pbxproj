@@ -24,6 +24,7 @@
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		D49C72992D4856C100AC36C3 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EFB67867A6CB584E4D5D332E /* libPods-Tests.a */; };
+		F2E825561A1011F600B80ED7 /* JDFNotificationView.m in Sources */ = {isa = PBXBuildFile; fileRef = F2E825551A1011F600B80ED7 /* JDFNotificationView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,8 @@
 		962751AE2C50F91C2995F84F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		DABE01607DE0A4E39DAFBB03 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		EFB67867A6CB584E4D5D332E /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F2E825541A1011F600B80ED7 /* JDFNotificationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JDFNotificationView.h; path = ../Pod/Classes/JDFNotificationView.h; sourceTree = "<group>"; };
+		F2E825551A1011F600B80ED7 /* JDFNotificationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JDFNotificationView.m; path = ../Pod/Classes/JDFNotificationView.m; sourceTree = "<group>"; };
 		FC5C5860665C79CC765AE418 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -99,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* JDFNotificationView */,
+				F2E825531A1011BB00B80ED7 /* JDFNotificationView */,
+				6003F593195388D20070C39A /* JDFNotificationViewDemo */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -129,7 +133,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* JDFNotificationView */ = {
+		6003F593195388D20070C39A /* JDFNotificationViewDemo */ = {
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* JDFAppDelegate.h */,
@@ -141,6 +145,7 @@
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
+			name = JDFNotificationViewDemo;
 			path = JDFNotificationView;
 			sourceTree = "<group>";
 		};
@@ -193,6 +198,15 @@
 				6E63D83108BBD36B7B4F1902 /* Pods-Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F2E825531A1011BB00B80ED7 /* JDFNotificationView */ = {
+			isa = PBXGroup;
+			children = (
+				F2E825541A1011F600B80ED7 /* JDFNotificationView.h */,
+				F2E825551A1011F600B80ED7 /* JDFNotificationView.m */,
+			);
+			name = JDFNotificationView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,6 +377,7 @@
 			files = (
 				6003F59E195388D20070C39A /* JDFAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* JDFViewController.m in Sources */,
+				F2E825561A1011F600B80ED7 /* JDFNotificationView.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
