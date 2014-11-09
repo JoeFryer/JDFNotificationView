@@ -1,0 +1,20 @@
+PODS:
+  - Expecta (0.3.1)
+  - JDFNotificationView (0.1.0)
+  - Specta (0.2.1)
+
+DEPENDENCIES:
+  - Expecta
+  - JDFNotificationView (from `../`)
+  - Specta (~> 0.2.1)
+
+EXTERNAL SOURCES:
+  JDFNotificationView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: 03aabd0a89d8dea843baecb19a7fd7466a69a31d
+  JDFNotificationView: d484289c059475f049b1870646804e599a87b32a
+  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+
+COCOAPODS: 0.34.4
