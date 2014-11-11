@@ -7,6 +7,8 @@
 `JDFNotificationView` is a simple `UIView` subclass that makes it easy to show simple notifications to the user without getting in their way.
  
  To use, simply create an instance, setup any options, and call one of the `show` methods, supplying the view you want it to be shown from. The notification will automatically dismiss itself after a certain amount of time.
+ 
+ ![Screenshot](Screenshots/JDFNotificationViewGif.gif)
 
 ## Usage
 
