@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Joe Fryer" => "joe.d.fryer@gmail.com" }
   s.source           = { :git => "https://github.com/JoeFryer/JDFNotificationView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/JoeFryer88'
+  s.social_media_url = 'https://twitter.com/JoeFryer88'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
