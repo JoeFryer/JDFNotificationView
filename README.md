@@ -8,7 +8,7 @@
  
  To use, simply create an instance, setup any options, and call one of the `show` methods, supplying the view you want it to be shown from. The notification will automatically dismiss itself after a certain amount of time.
  
- ![Screenshot](Screenshots/JDFNotificationViewGif.gif)
+ <img src="Screenshots/JDFNotificationViewGif.gif" width="300"/>
 
 ## Usage
 
